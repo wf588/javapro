@@ -9,7 +9,7 @@ public class Main{
     private  static ArrayList<Mybook> book = new ArrayList<>();
     static {
         book = new ArrayList<>();
-        book.add(new Mybook("1",1.6,"press","张三","BN_1"));
+        book.add(new Mybook("1",1.6,"press","张六","BN_1"));
         book.add(new Mybook("2",1.7,"pres1","李四","BN_2"));
         book.add(new Mybook("3",1.8,"pres2","王五","BN_3"));
         book.add(new Mybook("4",1.9,"press4","哈韩","BN_4"));

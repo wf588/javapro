@@ -1,13 +1,13 @@
 package com.wf.test;
 
 public class MainBoard {
-    private Cpu cpu;
+    private CPU cpu;
 
-    public Cpu getCpu() {
+    public CPU getCpu() {
         return cpu;
     }
 
-    public void setCpu(Cpu cpu) {
+    public void setCpu(CPU cpu) {
         this.cpu = cpu;
     }
 

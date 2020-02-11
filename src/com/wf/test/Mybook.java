@@ -18,17 +18,6 @@ public class Mybook {
     public Mybook() {
     }
 
-    @Override
-    public String toString() {
-        return "Mybook{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", press='" + press + '\'' +
-                ", author='" + author + '\'' +
-                ", bookISBN='" + bookISBN + '\'' +
-                '}';
-    }
-
     public String getName() {
         return name;
     }
@@ -67,6 +56,17 @@ public class Mybook {
 
     public void setBookISBN(String bookISBN) {
         this.bookISBN = bookISBN;
+    }
+
+    @Override
+    public String toString() {
+        return "Mybook{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", press='" + press + '\'' +
+                ", author='" + author + '\'' +
+                ", bookISBN='" + bookISBN + '\'' +
+                '}';
     }
 }
 

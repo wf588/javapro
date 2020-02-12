@@ -1,6 +1,9 @@
 package com.wf.test;
 
-public class Mybook {
+import java.io.Serializable;
+
+public class Mybook implements Serializable {
+    private static final long serialVersionUiD =1L;
     private String name;
     private double price;
     private String press;
